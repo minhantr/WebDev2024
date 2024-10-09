@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Booking</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header nav -->
+   <header>
+      <div class="nav-container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="search-results.html">Tìm kiếm</a></li>
+            <li><a href="bookings-management.html">Quản lý đặt chỗ</a></li>
+            <li><a href="login-register.html">Đăng nhập/Đăng ký</a></li>
+          </ul>
+        </nav>
+      </div>
+   </header>
+   
+  
+  <div class="video-container">
+    <video src="video/Travel Vlog Opener Video - After Effects Template.mp4" autoplay muted loop></video>
+  </div>
+  <div class="header-container">
+    <h1>Đặt Chỗ</h1>
+    <form action="search-results.html" method="get">
+        <p>Từ</p>
+        <select name="city" id="city">
+            <option value="#">Chọn thành phố</option>
+            <option value="da_nang">Đà Nẵng</option>
+            <option value="ha_noi">Hà Nội</option>
+            <option value="ho_chi_minh">TP. Hồ Chí Minh</option>
+            <option value="ha_long">Hạ Long</option>
+            <option value="nha_trang">Nha Trang</option>
+            <option value="hue">Huế</option>
+            <option value="ninh_binh">Ninh Bình</option>
+            <option value="nghe_an">Nghệ An</option>
+        </select>
+        <p>Đến</p>
+        <select name="" id="">
+            <option value="#">Chọn thành phố-</option>
+            <option value="da_nang">Đà Nẵng</option>
+            <option value="ha_noi">Hà Nội</option>
+            <option value="ho_chi_minh">TP. Hồ Chí Minh</option>
+            <option value="ha_long">Hạ Long</option>
+            <option value="nha_trang">Nha Trang</option>
+            <option value="hue">Huế</option>
+            <option value="ninh_binh">Ninh Bình</option>
+            <option value="nghe_an">Nghệ An</option>
+        </select>
+        <p>Ngày đi</p>
+        <input type="date">
+        <p>Ngày về</p>
+        <input type="date">
+        <p>Loại dịch vụ</p>
+        <select>
+          <option value="#">Chuyến bay</option>
+          <option value="#">Khách sạn</option>
+          <option value="#">Tour</option>
+        </select>
+        <button type="submit">Search</button>
+    </form>
+  </div>
+  
+
+  <!-- Featured Section -->
+  <section class="featured">
+    <div class="container">
+      <h2>Ưu đãi nổi bật</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="images/da_nang.jpg" alt="Ưu đãi 1">
+          <a href="https://danangbest.com/tour-du-lich-da-nang-gia-re.html" target="_blank">
+            <h3>Khách sạn Đà Nẵng - Ưu đãi 50%</h3>
+          </a>
+          <p>Chỉ từ 1.000.000đ</p>
+        </div>
+        <div class="card">
+          <img src="images/phu_quoc.jpg" alt="Ưu đãi 2">
+          <a href="https://phuquoctrip.com/vi/tour-phu-quoc?gad_source=1&gclid=Cj0KCQjw05i4BhDiARIsAB_2wfBtc3yOvBENOkrYVOx4X4wFojGCS-HwNRx-jUxQHec7ydMuuPhWKHsaAun4EALw_wcB" target="_blank">
+            <h3>Tour Phú Quốc 3 ngày 2 đêm</h3>
+          </a>
+          <p>Chỉ từ 3.000.000đ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2024 TravelBooking. All rights reserved.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
