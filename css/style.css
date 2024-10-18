@@ -20,7 +20,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Thanh điều hướng */
+/* Nav Bar */
 header {
     height: 70px;
     align-items: center;
@@ -273,12 +273,12 @@ form button:hover {
 }
 
 .card p {
-    color: #007BFF;
+    color: var(--main-color);
 }
 
 .card button {
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: var(--main-color);
     color: white;
     border: none;
     cursor: pointer;
@@ -287,130 +287,6 @@ form button:hover {
 .card button:hover {
     background-color: #0056b3;
 }
-
-
-/* Details Section */
-.details {
-    margin: 50px 0;
-}
-
-.details h1 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.details img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.details p {
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.details button {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.details button:hover {
-    background-color: #0056b3;
-}
-
-
-/* Checkout Section */
-.checkout {
-    margin: 50px 0;
-}
-
-.checkout h1 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.payment-form {
-    width: 50%;
-    margin: 0 auto;
-}
-
-.payment-form label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.payment-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-}
-
-.payment-form button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #28A745;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.payment-form button:hover {
-    background-color: #218838;
-}
-
-
-/* Bookings Section */
-.bookings {
-    margin: 50px 0;
-}
-
-.bookings h1 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.grid {
-    display: flex;
-    justify-content: space-around;
-}
-
-.card {
-    width: 30%;
-    padding: 20px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    text-align: center;
-}
-
-.card h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.card p {
-    margin-bottom: 10px;
-}
-
-.card button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.card button:hover {
-    background-color: #0056b3;
-}
-
 
 /* Auth Section */
 .auth {
@@ -443,7 +319,7 @@ form button:hover {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007BFF;
+    background-color: var(--main-color);
     color: white;
     border: none;
     cursor: pointer;
@@ -453,11 +329,12 @@ form button:hover {
     background-color: #0056b3;
 }
 
+/* Back to top button */
 #back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007bff;
+    background-color: var(--main-color);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -474,13 +351,9 @@ form button:hover {
 }
 
 
-
-
-
-
+/* Booking section */
 /* General Body Reset */
-body {
-    font-family: 'Arial', sans-serif;
+body.booking-page {
     background-color: #f4f6f9; /* Light gray background */
     margin: 0;
     padding: 20px;
